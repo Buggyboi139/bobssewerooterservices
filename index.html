@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob's Sewerooter Services | Fast Drain & Sewer Repair</title>
+    <style>
+        /* Base & Reset */
+        :root {
+            --primary-blue: #0A58CA;
+            --dark-blue: #084298;
+            --accent-orange: #FD7E14;
+            --text-dark: #212529;
+            --text-light: #6C757D;
+            --bg-light: #F8F9FA;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Top Utility Bar */
+        .top-bar {
+            background-color: var(--dark-blue);
+            color: var(--white);
+            padding: 10px 0;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        /* Header / Nav */
+        header {
+            background-color: var(--white);
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: var(--primary-blue);
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .contact-btn {
+            background-color: var(--accent-orange);
+            color: var(--white);
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.2s;
+        }
+
+        .contact-btn:hover {
+            background-color: #e86b0c;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(10, 88, 202, 0.9), rgba(8, 66, 152, 0.9)), url('https://images.unsplash.com/photo-1607472586893-edb57cbce42e?auto=format&fit=crop&w=1200&q=80') center/cover;
+            color: var(--white);
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Review Section */
+        .reviews-section {
+            background-color: var(--bg-light);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .reviews-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: var(--primary-blue);
+        }
+
+        .stars {
+            color: #FFC107;
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .review-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+
+        .review-card p {
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .review-author {
+            font-weight: bold;
+            color: var(--primary-blue);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--text-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        Emergency Service Available | Open until 10:00 PM
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Bob's Sewerooter Services</h1>
+            </div>
+            <a href="tel:+15152626520" class="contact-btn">📞 (515) 262-6520</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Fast, Reliable Drain & Sewer Repair.</h2>
+            <p>Don't let a backed-up drain ruin your day. Our expert team (including Steve!) is ready to get your pipes flowing good as new in no time.</p>
+            <a href="tel:+15152626520" class="contact-btn" style="font-size: 1.3rem; padding: 15px 35px;">Call for Service Now</a>
+        </div>
+    </section>
+
+    <section class="reviews-section">
+        <div class="container">
+            <h2>Rated 4.8 Stars by Our Community</h2>
+            <div class="stars">★★★★★</div>
+            <p>See why your neighbors trust us with their older homes and emergency leaks.</p>
+
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars" style="margin-bottom: 10px; font-size: 1.2rem;">★★★★★</div>
+                    <p>"Steve was great to work with. Called in the morning for a clogged sink, he was there within a couple hours... didn't leave much of anything for a mess."</p>
+                    <div class="review-author">— Local Customer (7 months ago)</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars" style="margin-bottom: 10px; font-size: 1.2rem;">★★★★★</div>
+                    <p>"If I could give Steve 6 stars, I would. Just an overall pleasant experience. Intelligent and wise to the workings of an older house."</p>
+                    <div class="review-author">— Local Customer (6 months ago)</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="stars" style="margin-bottom: 10px; font-size: 1.2rem;">★★★★★</div>
+                    <p>"Had my drain fixed up and good as new in under 30 minutes! Nice personable people to work with and priced right."</p>
+                    <div class="review-author">— Local Customer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Bob's Sewerooter Services</h3>
+            <p>4677 NE 38th St</p>
+            <p>Call Us: (515) 262-6520</p>
+            <p style="margin-top: 20px; font-size: 0.8rem;">Mockup created for portfolio purposes.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
